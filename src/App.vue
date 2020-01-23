@@ -347,6 +347,7 @@ const WEEKDAYS = [
   "Saturday",
   "Sunday"
 ];
+
 export default {
   name: "App",
 
@@ -443,8 +444,8 @@ export default {
       var kiev = findTimeZone("Europe/Kiev");
       var time = getZonedTime(new Date(), kiev);
       // var hours = time.hours;
-      var day = WEEKDAYS[time.dayOfWeek - 1];
-      var result = [];
+      const day = WEEKDAYS[time.dayOfWeek - 1];
+      const result = [];
       for (var s = 0; s < this.arenas.length; s++) {
         for (var d = 0; d < this.arenas[s].days.length; d++) {
           if (

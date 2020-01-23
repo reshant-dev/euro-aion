@@ -26,21 +26,21 @@ const seiges = [
     type: "specified-days",
     name: "vorgaltem-scales",
     days: ["sunday", "monday", "wedsday", "friday", "saturday"],
-    time: 21
+    time: 20
   },
   {
     id: 4,
     type: "specified-days",
     name: "silus-silona-pradeth",
     days: ["sunday", "monday", "wedsday", "friday"],
-    time: 23
+    time: 22
   },
   {
     id: 5,
     type: "specified-days",
     name: "kysis-miren-krotan",
     days: ["tuesday", "thursday", "saturday"],
-    time: 23
+    time: 22
   }
 ];
 const dredigons = [
