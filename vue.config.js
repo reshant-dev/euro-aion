@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV == "production" ? "/euro-aion/" : "/",
   transpileDependencies: ["vuetify", "vuex-presist"],
   configureWebpack: {
     devtool: "source-map"
