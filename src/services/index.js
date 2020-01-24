@@ -44,36 +44,39 @@ const seiges = [
   }
 ];
 const dredigons = [
-  { id: 0, type: "daily", name: "Chantra", time: 12, days: ["daily"] },
-  { id: 2, type: "daily", name: "Terath", time: 12, days: ["daily"] },
-  { id: 3, type: "daily", name: "Chantra", time: 0, days: ["daily"] },
-  { id: 4, type: "daily", name: "Terath", time: 0, days: ["daily"] },
-  { id: 5, type: "daily", name: "Chantra", time: 20, days: ["daily"] },
-  { id: 6, type: "daily", name: "Terath", time: 20, days: ["daily"] },
+  { id: 0, type: "daily", name: "Chantra-Terath", time: 12, days: ["daily"] },
+  { id: 1, type: "daily", name: "Terath - Chantra", time: 0, days: ["daily"] },
+  { id: 2, type: "daily", name: "Terath-Chantra", time: 20, days: ["daily"] },
   {
-    id: 7,
+    id: 3,
     type: "daily",
     name: "engulfed ophidan bridge",
     time: 12,
     days: ["daily"]
   },
   {
-    id: 8,
+    id: 4,
     type: "daily",
     name: "engulfed ophidan bridge",
     time: 19,
     days: ["daily"]
   },
-  { id: 9, type: "specified-days", name: "sunday", time: 0, days: ["sunday"] },
   {
-    id: 10,
+    id: 9,
     type: "specified-days",
-    name: "sunday",
+    name: "iron warfront",
+    time: 0,
+    days: ["sunday"]
+  },
+  {
+    id: 5,
+    type: "specified-days",
+    name: "iron warfront",
     time: 12,
     days: ["sunday"]
   },
   {
-    id: 11,
+    id: 6,
     type: "daily",
     name: "kamar battlefield",
     time: 21,
