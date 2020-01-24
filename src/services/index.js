@@ -44,16 +44,47 @@ const seiges = [
   }
 ];
 const dredigons = [
-  { id: 0, type: "daily", name: "Dredgion", time: 0, days: ["daily"] },
-  { id: 1, type: "daily", name: "Chantra", time: 12, days: ["daily"] },
-  { id: 2, type: "daily", name: "Terath", time: 20, days: ["daily"] },
-  { id: 3, type: "daily", name: "kamar battlefield", time: 21, days: ["daily"] }
+  { id: 0, type: "daily", name: "Chantra", time: 12, days: ["daily"] },
+  { id: 2, type: "daily", name: "Terath", time: 12, days: ["daily"] },
+  { id: 3, type: "daily", name: "Chantra", time: 0, days: ["daily"] },
+  { id: 4, type: "daily", name: "Terath", time: 0, days: ["daily"] },
+  { id: 5, type: "daily", name: "Chantra", time: 20, days: ["daily"] },
+  { id: 6, type: "daily", name: "Terath", time: 20, days: ["daily"] },
+  {
+    id: 7,
+    type: "daily",
+    name: "engulfed ophidan bridge",
+    time: 12,
+    days: ["daily"]
+  },
+  {
+    id: 8,
+    type: "daily",
+    name: "engulfed ophidan bridge",
+    time: 19,
+    days: ["daily"]
+  },
+  { id: 9, type: "specified-days", name: "sunday", time: 0, days: ["sunday"] },
+  {
+    id: 10,
+    type: "specified-days",
+    name: "sunday",
+    time: 12,
+    days: ["sunday"]
+  },
+  {
+    id: 11,
+    type: "daily",
+    name: "kamar battlefield",
+    time: 21,
+    days: ["daily"]
+  }
 ];
 const arenas = [
   {
     id: 0,
     type: "specified-days",
-    name: "discipline",
+    name: "chaos-cooperation-discipline",
     time: 12,
     days: ["sunday", "saturday"]
   },
