@@ -11,7 +11,7 @@
     "core-js": "^3.4.4",
     "gapi": "^0.0.3",
     "module": "^1.2.5",
-    "moment-timezone": "^0.5.27",
+    "moment-timezone": "^0.5.35",
     "time-zone-converter": "^1.1.0",
     "timezone-support": "^2.0.2",
     "vue": "^2.6.10",
